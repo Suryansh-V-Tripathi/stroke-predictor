@@ -1,0 +1,12 @@
+1. Abstract
+This project is about using Artificial Intelligence to help doctors. I created a "Diagnostic Agent" that takes 10 different health factors and predicts stroke risk. This helps in early prevention.
+
+2. Syllabus Mapping
+Module 1: My project is a Goal-Based Agent. The goal is to maximize accuracy in medical prediction.
+
+Module 2: I implemented Knowledge Representation. Since AI isn't always 100% right, I added manual rules to check for high blood pressure and old age.
+
+Module 4: I used Supervised Learning. I split my data into 80% for training and 20% for testing to see how well the model learned.
+
+3. Results & Discussion
+When I ran my train.py script, I got an Accuracy of 75%. My ROC AUC score was 0.81, which means the model is good at telling the difference between a healthy person and someone at risk. I realized that "Recall" is very important here because we should never miss a real stroke case.
